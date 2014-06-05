@@ -13,6 +13,7 @@ To work on the migration on a new module, please
 * fleet (rvalyi)
 * hr (chafique+florian)
 * hr_expense (arthur)
+* point_of_sale (Sylvain)
 * procurement (c2c)
 * product (c2c)
 * project (Stefan)
