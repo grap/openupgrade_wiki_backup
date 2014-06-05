@@ -7,12 +7,9 @@ To work on the migration on a new module, please
 
 * account (Arthru)
 * base_calendar (ccomb)
-* decimal_precision (rvalyi)
-* document (david)
 * event (Paulius)
 * base_action_rule (Paulius)
 * fleet (rvalyi)
-* hr (chafique+florian)
 * hr_expense (arthur)
 * point_of_sale (Sylvain)
 * procurement (c2c)
