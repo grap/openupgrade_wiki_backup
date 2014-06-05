@@ -10,6 +10,7 @@ To work on the migration on a new module, please
 * decimal_precision (rvalyi)
 * document (david)
 * event (Paulius)
+* base_action_rule (Paulius)
 * fleet (rvalyi)
 * hr (chafique+florian)
 * hr_expense (arthur)
