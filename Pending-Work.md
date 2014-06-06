@@ -4,7 +4,7 @@ To work on the migration on a new module, please
 1. check this page : [Read The Doc coverage page for v8](https://doc.therp.nl/openupgrade/modules70-80.html)
 2. Update the following list with the module you are going to work on and your name
 
-
+* share (arthur)
 * account (Arthru)
 * base_calendar (ccomb)
 * event (Paulius)
