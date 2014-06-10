@@ -14,7 +14,7 @@ To work on the migration on a new module, please
 * point_of_sale (Sylvain)
 * procurement (c2c)
 * product (c2c)
-* project (Stefan)
+* sale (Stefan)
 * project_issue (Stefan)
 
 # Orphaned modules
