@@ -15,6 +15,7 @@ To work on the migration on a new module, please
 * procurement (c2c)
 * product (c2c)
 * project_issue (Stefan)
+* mail (Sandy)
 
 # Orphaned modules
 If you began to work on a module but not going to finish it now, because you're busy (or other), please remove the line from the previous list and put it in here:
