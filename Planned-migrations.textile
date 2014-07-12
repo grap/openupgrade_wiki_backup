@@ -3,18 +3,18 @@ Update the following list with the migration you planned to do (write the main m
 *From V7 to V8*:
 
 |*Module*|*Assignee*|*Estimated end*|
-|procurement|onesteinbv|08/2014|
-|stock|onesteinbv|08/2014|
-|sale|onesteinbv|09/2014|
-|sale_stock|onesteinbv|09/2014|
+|account_accountant|legalsylvain|2015|
 |delivery|onesteinbv|09/2014|
-|purchase|onesteinbv|09/2014|
 |mrp|onesteinbv|09/2014|
-|report_intrastat|onesteinbv|09/2014|
+|point of sale|legalsylvain|2015|
 |portal|onesteinbv|08/2014|
 |portal_sale|onesteinbv|09/2014|
-|point of sale|legalsylvain|2015|
-|account_accountant|legalsylvain|2015|
+|procurement|onesteinbv|08/2014|
+|purchase|onesteinbv|09/2014|
+|report_intrastat|onesteinbv|09/2014|
+|sale|onesteinbv|09/2014|
+|sale_stock|onesteinbv|09/2014|
+|stock|onesteinbv|08/2014|
 
-* legalsylvain (early 2015) : point_of_sale, sale, purchase, stock, mrp, account_accountant;
+-* legalsylvain (early 2015) : point_of_sale, sale, purchase, stock, mrp, account_accountant;-
 
