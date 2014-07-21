@@ -12,9 +12,10 @@ To work on the migration on a new module, please
 * fleet (rvalyi)
 * hr_expense (arthur)
 * point_of_sale (Sylvain)
-* procurement (c2c)
+* procurement (c2c, onesteinbv)
 * product (c2c)
 * project_issue (Stefan)
+* stock (onesteinbv)
 * mail (Sandy)
 
 # Orphaned modules
