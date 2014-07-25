@@ -4,6 +4,7 @@ Update the following list with the migration you planned to do (write the main m
 
 |*Module*|*Assignee*|*Estimated end*|
 |account_accountant|legalsylvain|2015|
+|crm|ajite|08/2014|
 |delivery|onesteinbv|09/2014|
 |mrp|onesteinbv|09/2014|
 |point of sale|legalsylvain|2015|
