@@ -17,6 +17,7 @@ To work on the migration on a new module, please
 * project_issue (Stefan)
 * stock (onesteinbv)
 * mail (Sandy)
+* crm (ajite)
 
 # Orphaned modules
 If you began to work on a module but not going to finish it now, because you're busy (or other), please remove the line from the previous list and put it in here:
