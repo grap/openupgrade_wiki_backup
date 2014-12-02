@@ -2,7 +2,7 @@ Cherry-picking addons
 =====================
 
 This is the log for the addons part:
-```
+
 DEBUG: finding differences
 DEBUG: Searching for missing revisions between file:///Datos/Installs/ERP/OpenERP/7.0/OpenUpgrade/bzr-addons/ and file:///Datos/Installs/ERP/OpenERP/7.0/OpenUpgrade/ou-addons/
 DEBUG: 147 revisions not in the upstream branch
@@ -297,12 +297,12 @@ Do you want to apply it? (Y/n)
 Committing http://bazaar.launchpad.net/~openupgrade-committers/openupgrade-addons/7.0/revision/8174
 [FIX] don't use regex that could lead to very cpu intensive back tracking
 Do you want to apply it? (Y/n) 
-```
+
 Server cherry-picking
 =====================
 
 And this one for the server part:
-```
+
 DEBUG: finding differences
 DEBUG: Searching for missing revisions between file:///Datos/Installs/ERP/OpenERP/7.0/OpenUpgrade/bzr-server/ and file:///Datos/Installs/ERP/OpenERP/7.0/OpenUpgrade/ou-server/
 DEBUG: 164 revisions not in the upstream branch
@@ -663,4 +663,3 @@ Committing http://bazaar.launchpad.net/~openupgrade-committers/openupgrade-serve
 [IMP] Backport 8.0 debugging improvement
 
 Do you want to apply it? (Y/n) 
-```
