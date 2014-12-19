@@ -11,11 +11,13 @@ Update the following list with the migration you planned to do (write the main m
 |portal|onesteinbv|08/2014|
 |portal_sale|onesteinbv|09/2014|
 |procurement|onesteinbv|08/2014|
+|product_expiry|bloopark|12/2014|
 |purchase|onesteinbv|09/2014|
 |report_intrastat|onesteinbv|09/2014|
 |sale|onesteinbv|09/2014|
 |sale_stock|onesteinbv|09/2014|
 |stock|onesteinbv|08/2014|
+|warning|bloopark|12/2014|
 
 -* legalsylvain (early 2015) : point_of_sale, sale, purchase, stock, mrp, account_accountant;-
 
