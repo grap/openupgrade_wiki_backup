@@ -1,9 +1,9 @@
 
-# generality
+# Module coverage
 
 1. check this page : [Read The Doc coverage page for v8](https://doc.therp.nl/openupgrade/modules70-80.html)
 
-# Specific Modules
+# Module details
 here is a list of modules that disappeared or has been moved between 7.0 and 8.0 version.
 
 | Module in V7        |  Location in V7  | Module in  V8   | Location in V8  | Extra Comment          |
