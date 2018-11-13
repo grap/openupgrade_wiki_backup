@@ -8,3 +8,10 @@ echo "update ir_module_module set state = 'to install', demo=true where state = 
 odoo-bin -d 10.0 -i account_voucher --stop-after-init
 ```
 This ensures that the chart of accounts of l10n_generic_coa is installed instead of the chart of accounts of the first localization module that is encountered.
+
+For 11.0 and possibly later versions, it is required to create a database with the attachments stored into the database. After creating the initial database, you can open a shell and execute the following commands:
+
+>>> self.env['ir.config_parameter'].set_param('ir_attachment.location', 'db')
+>>> self.env['ir.attachment'].force_storage()
+
+You may need this patch: https://github.com/odoo/odoo/pull/28620
