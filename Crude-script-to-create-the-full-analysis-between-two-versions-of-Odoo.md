@@ -1,3 +1,10 @@
+### Migration to version 14.0 or newer
+
+TODO. 
+- Adapt the script to use ``upgrade_analysis`` module.
+
+### Migration to version 13.0 or older
+
 ```python
 import odoorpc
 
