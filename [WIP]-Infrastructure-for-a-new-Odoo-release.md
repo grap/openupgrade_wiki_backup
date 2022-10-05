@@ -10,8 +10,8 @@ In a clone of https://github.com/OCA/OpenUpgrade, do `git checkout -b $NEW origi
 
 ```
 git checkout -b $NEW origin/$OLD
-export ESCAPEDPREV=${PREV/\./\\\.}; echo $ESCAPEDPREV  # 14.0 -> 14\.0
-export ESCAPEDOLD=${OLD/\./\\\.}; echo $ESCAPEDOLD  # 15.0 -> 15\.0
+export ESCAPEDPREV=${PREV/\./\\\.}  # e.g. 14.0 -> 14\.0
+export ESCAPEDOLD=${OLD/\./\\\.}    # e.g. 15.0 -> 15\.0
 sed -i "s/$ESCAPEDOLD/$NEW/g" \
     .github/workflows/documentation-commit.yml \
     .github/workflows/documentation.yml \
