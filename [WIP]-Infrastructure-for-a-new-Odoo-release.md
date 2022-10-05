@@ -39,6 +39,7 @@ sed -i "s/$ESCAPEDPREV/$OLD/g" \
   Run with Odoo configuration option `module_coverage_file_folder = <some folder>`.
 * On success, propose the migration of `upgrade_analysis` into server-tools, and the analysis files into openupgrade.
   Replace the previous coverage file (e.g. `docsource/modules140-150`) with the file generated in `<some folder>`
+  Add a line for the previous distribution to `build_openupgrade_docs`.
 
 # TODO
 
