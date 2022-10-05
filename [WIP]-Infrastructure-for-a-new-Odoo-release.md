@@ -32,8 +32,10 @@ sed -i "s/$ESCAPEDPREV/$OLD/g" \
 * Set openupgrade_framework to uninstallable in `openupgrade_framework/__manifest__.py`.
 * Remove the old version's analysis and migration scripts with `git rm openupgrade_scripts/scripts/* -rf`
 * Execute the technical migration of `upgrade_analysis` from https://github.com/OCA/server-tools.
-* Test the module migration to 
+* Test the module migration
 
 # TODO
 
 * Describe how to create the coverage page (e.g. docsource/modules150-160) and add it to docsource/status.rst.
+* Create and push the test database to Github for use in the 'test' workflow job.
+* Does the documentation job or Github pages settings need to be reconfigured?
