@@ -27,10 +27,11 @@ odoo-bin -d 14.0 -i dummy --stop-after-init --without-demo=
 odoo-bin -d 14.0 shell
 >>> env['ir.config_parameter'].set_param('ir_attachment.location', 'db')
 >>> env['ir.attachment'].force_storage()
+>>> env.cr.commit()
 >>> exit()
 
 # Export database
-sudo su postgres -c "pg_dump test_shell --format=c --file=/tmp/14.0.psql"
+sudo su postgres -c "pg_dump -d 14.0 --format=c --file=/tmp/14.0.psql"
 ```
 
 ### Upload
