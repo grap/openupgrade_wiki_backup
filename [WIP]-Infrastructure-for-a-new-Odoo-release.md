@@ -28,9 +28,12 @@ sed -i "s/$ESCAPEDPREV/$OLD/g" \
     .github/workflows/test.yml
 ```
 
-* Reset the version number in `openupgrade_scripts/__manifest__.py`
+# Manual changes
+
+* Reset the version number in `openupgrade_scripts/__manifest__.py` and `openupgrade_framework`
 * Set openupgrade_framework to uninstallable in `openupgrade_framework/__manifest__.py`.
 * Remove the old version's analysis and migration scripts with `git rm openupgrade_scripts/scripts/* -rf`
+* Remove the old version's module mappings in `openuprade_scripts/apriori.py`
 * Execute the technical migration of `upgrade_analysis` from https://github.com/OCA/server-tools.
 * Run the module migration, see https://github.com/OCA/OpenUpgrade/wiki/Crude-script-to-create-the-full-analysis-between-two-versions-of-Odoo
 * On success, propose the migration of `upgrade_analysis` into server-tools, and the analysis files into openupgrade.
