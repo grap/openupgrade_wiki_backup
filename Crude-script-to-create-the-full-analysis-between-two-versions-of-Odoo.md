@@ -1,3 +1,7 @@
+### Known quirks
+
+* 16.0: https://github.com/odoo/odoo/compare/2128b4f2f9bdb...StefanRijnhart:odoo:openupgrade/16.0/analysis_quirks
+
 ### Migration to version 14.0 or newer
 
 ```
