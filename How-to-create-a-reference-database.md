@@ -1,4 +1,4 @@
-To run a test migration, Travis downloads a preinstalled database of the previous version from https://github.com/OCA/OpenUpgrade/releases/tag/databases.
+To run a test migration, the Github `Test` workflow downloads a preinstalled database of the previous version from https://github.com/OCA/OpenUpgrade/releases/tag/databases.
 This database has all Odoo core modules installed with demo data.
 
 ### Preparation
