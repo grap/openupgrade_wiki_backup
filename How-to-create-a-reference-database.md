@@ -20,7 +20,7 @@ echo "update ir_module_module set state = 'uninstallable' where name like 'test%
 echo "update ir_module_module set state = 'to install', demo=true where state = 'uninstalled';" | psql 14.0
 
 # Install all modules
-odoo-bin -d 14.0 -i account_voucher --stop-after-init
+odoo-bin -d 14.0 -i dummy --stop-after-init --without-demo=
 
 # put the attachment in database
 odoo-bin -d 14.0 shell
