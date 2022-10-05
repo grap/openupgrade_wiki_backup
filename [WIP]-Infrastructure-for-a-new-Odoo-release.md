@@ -35,11 +35,12 @@ sed -i "s/$ESCAPEDPREV/$OLD/g" \
 * Remove the old version's analysis and migration scripts with `git rm openupgrade_scripts/scripts/* -rf`
 * Remove the old version's module mappings in `openuprade_scripts/apriori.py`
 * Execute the technical migration of `upgrade_analysis` from https://github.com/OCA/server-tools.
-* Run the module migration, see https://github.com/OCA/OpenUpgrade/wiki/Crude-script-to-create-the-full-analysis-between-two-versions-of-Odoo
+* Run the module migration, see https://github.com/OCA/OpenUpgrade/wiki/Crude-script-to-create-the-full-analysis-between-two-versions-of-Odoo.
+  Run with Odoo configuration option `module_coverage_file_folder = <some folder>`.
 * On success, propose the migration of `upgrade_analysis` into server-tools, and the analysis files into openupgrade.
+  Replace the previous coverage file (e.g. `docsource/modules140-150`) with the file generated in `<some folder>`
 
 # TODO
 
-* Describe how to create the coverage page (e.g. docsource/modules150-160) and add it to docsource/status.rst.
 * Create and push the test database to Github for use in the 'test' workflow job.
 * Does the documentation job or Github pages settings need to be reconfigured?
