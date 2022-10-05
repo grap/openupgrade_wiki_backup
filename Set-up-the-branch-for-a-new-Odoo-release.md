@@ -41,4 +41,4 @@ sed -i "s/$ESCAPEDPREV/$OLD/g" \
 * Check files in `.github/workflows` for any required changes.
 * Push a test database for the *old* release to Github (see https://github.com/OCA/OpenUpgrade/wiki/How-to-create-a-reference-database)
 
-Once development starts on the new edition's migration scripts, change the branch that is used for the online docs at https://github.com/OCA/OpenUpgrade/settings/pages, as well as changing the default branch for new PRs at https://github.com/OCA/OpenUpgrade/settings/branches.
+Once development starts on the new edition's migration scripts, change the branch that is used for the online docs at https://github.com/OCA/OpenUpgrade/settings/pages, as well as the default branch for new PRs at https://github.com/OCA/OpenUpgrade/settings/branches.
