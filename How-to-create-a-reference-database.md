@@ -13,7 +13,7 @@ The 14.0 database was created as follows:
 ```
 # Install account module first to ensure that the chart of accounts of l10n_generic_coa
 # is installed instead of the chart of accounts of the first localization module that is encountered.
-odoo-bin -d 14.0 -i account --stop-after-init
+odoo-bin -d 14.0 -i account --stop-after-init --without-demo=
 
 # Mark all interesting modules as installable
 echo "update ir_module_module set state = 'uninstallable' where name like 'test%' or name like 'hw_%';" | psql 14.0
