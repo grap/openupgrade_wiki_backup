@@ -6,7 +6,7 @@ This database has all Odoo core modules installed with demo data.
 - Checkout a clean Odoo up-to-date base code
 - Make sure your addons_path only contains odoo repo, (if it contains OCA / custom repo) the modules will be installed.
 - You may need this patch: https://github.com/odoo/odoo/pull/28620
-- Configure your instance with `without_demo =` and without any non-Odoo addons paths.
+- Configure your instance without any non-Odoo addons paths.
 
 ### Generate the database
 
