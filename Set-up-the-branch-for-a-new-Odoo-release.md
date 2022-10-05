@@ -26,7 +26,7 @@ sed -i "s/$ESCAPEDPREV/$OLD/g" \
     .github/workflows/test.yml
 ```
 
-# Manual changes
+## Manual changes
 
 * Reset the version number in `openupgrade_scripts/__manifest__.py` and `openupgrade_framework`
 * Set openupgrade_framework to uninstallable in `openupgrade_framework/__manifest__.py`.
