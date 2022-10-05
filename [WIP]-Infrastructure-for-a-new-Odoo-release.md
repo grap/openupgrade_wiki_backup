@@ -40,8 +40,7 @@ sed -i "s/$ESCAPEDPREV/$OLD/g" \
 * On success, propose the migration of `upgrade_analysis` into server-tools, and the analysis files into openupgrade.
   Replace the previous coverage file (e.g. `docsource/modules140-150`) with the file generated in `<some folder>`
   Add a line for the previous distribution to `build_openupgrade_docs`.
+* Check files in `.github/workflows` for any required changes.
+* Push a test database to github (see https://github.com/OCA/OpenUpgrade/wiki/How-to-create-a-reference-database)
 
-# TODO
-
-* Create and push the test database to Github for use in the 'test' workflow job.
-* Does the documentation job or Github pages settings need to be reconfigured?
+Once development starts on the new edition's migration scripts, change the branch that is used for the online docs at https://github.com/OCA/OpenUpgrade/settings/pages.
