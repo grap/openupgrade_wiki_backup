@@ -1,12 +1,10 @@
-# Create the infrastructure for a new Odoo release
-
-Export the old and new versions as variables, e.g. `export PREV=14.0 OLD=15.0 NEW=16.0`.
-
 ## Create a new branch
 
 In a clone of https://github.com/OCA/OpenUpgrade, do `git checkout -b $NEW origin/$OLD`. Push the copied branch to the repository.
 
 ## Replace version numbers
+
+Export the old and new versions as variables, e.g. `export PREV=14.0 OLD=15.0 NEW=16.0`.
 
 ```
 git checkout -b $NEW origin/$OLD
