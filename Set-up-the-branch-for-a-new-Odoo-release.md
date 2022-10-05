@@ -39,6 +39,6 @@ sed -i "s/$ESCAPEDPREV/$OLD/g" \
   Replace the previous coverage file (e.g. `docsource/modules140-150`) with the file generated in `<some folder>`
   Add a line for the previous distribution to `build_openupgrade_docs`.
 * Check files in `.github/workflows` for any required changes.
-* Push a test database to github (see https://github.com/OCA/OpenUpgrade/wiki/How-to-create-a-reference-database)
+* Push a test database for the *old* release to Github (see https://github.com/OCA/OpenUpgrade/wiki/How-to-create-a-reference-database)
 
 Once development starts on the new edition's migration scripts, change the branch that is used for the online docs at https://github.com/OCA/OpenUpgrade/settings/pages.
