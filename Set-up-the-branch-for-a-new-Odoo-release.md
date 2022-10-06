@@ -2,7 +2,22 @@ Export the old and new versions as variables, e.g. `export PREV=14.0 OLD=15.0 NE
 
 ## Create a new branch
 
-In a clone of https://github.com/OCA/OpenUpgrade, do `git checkout -b $NEW origin/$OLD`. Push the copied branch to the repository.
+```
+export NODOTPREV=${PREV/\./}  # e.g. 14.0 -> 140
+export NODOTDOLD=${OLD/\./}    # e.g. 15.0 -> 150
+
+git checkout --orphan $NEW
+git commit --allow-empty --no-verify -m "Initialize $NEW branch"
+git format-patch --keep-subject --stdout origin/$NEW..origin/$OLD -- \
+    ':!docs' \
+    ':!openupgrade_scripts/scripts' \
+    ':!openupgrade_framework' \
+    ":!docsource/modules$NODOTPREV-$NODOTOLD.rst" \
+    ':!openupgrade_scripts/apriori.py' \
+| git am -3 --keep
+```
+
+Push the resulting branch to the upstream location.
 
 ## Replace version numbers
 
