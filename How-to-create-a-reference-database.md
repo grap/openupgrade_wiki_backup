@@ -28,7 +28,12 @@ odoo-bin -d 14.0 shell
 >>> env['ir.config_parameter'].set_param('ir_attachment.location', 'db')
 >>> env['ir.attachment'].force_storage()
 >>> env.cr.commit()
->>> exit()
+
+# Install an additional language (optional, e.g. 15.0)
+>>> lang = env.ref('base.lang_fr')
+>>> lang._activate_lang(lang.code)
+>>> env['ir.module.module'].search([('state', '=', 'installed')])._update_translations(lang.code, True)
+>>> env.cr.commit()
 
 # Export database
 sudo su postgres -c "pg_dump -d 14.0 --format=c --file=/tmp/14.0.psql"
